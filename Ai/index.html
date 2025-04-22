@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stargazing Guide Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-header">
+        <h1>Stargazing Guide Chatbot</h1>
+        <p>Your personal guide to the stars</p>
+        <p>Developed by: Praneet Raj, Rohit singh Yadav, Manoj Reddi</p>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <div class="box user-details">
+                <h2>User Details</h2>
+                <div class="user-details-content">
+                    <p><strong>Name:</strong> Praneet Raj</p>
+                    <p><strong>Reg:</strong> 12324639</p>
+                    <p><strong>Roll:</strong> 19</p>
+                    <p><strong>Sec:</strong> K23DW</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="box chat-section">
+                <h2>Chat with Stargazing AI</h2>
+                <div id="chatBox" class="chat-box"></div>
+                <div class="chat-input">
+                    <input type="text" id="chatInput" placeholder="Ask about stars, planets, commets etc" />
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
